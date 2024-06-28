@@ -4,5 +4,3 @@ Queremos ajudar você com sua ideia.
 
 editei isso na branch "dev".
 
-
-esse arquivo está editado na master.
