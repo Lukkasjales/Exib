@@ -4,4 +4,5 @@ Queremos ajudar você com sua ideia.
 
 editei isso na branch "dev".
 
-editei isso na master antes do rebase.
+
+esse arquivo está editado na master.
