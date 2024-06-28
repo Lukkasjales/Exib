@@ -3,5 +3,3 @@ Queremos ajudar você com sua ideia.
 
 
 editei isso na branch "dev".
-
-isso será usado no rebase.
