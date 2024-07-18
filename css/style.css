@@ -47,18 +47,7 @@ header {
     color: white;
     background-color: black;
 }
-/* 
-Nome deve ser mais intuitivo exemplo
-hero
-algo que descreva a seção
-*/
-.hero {
 
-    height: 960px;
-    width: 100%;
-    background-image: url('../images/first-background.png');
-
-}
 
 .page2 {
     height: 960px;
