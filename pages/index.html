@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <div class="page1">
-        <div class="page1-content">
-            <header>
-                <h1 class="exib-title">Exib</h1>
-                <div class="header-div">
-                    <p>Campanhas</p>
-                    <p>Blog</p>
-                    <button>Entrar</button>
-                </div>
-            </header>
-            <div class="share-your-idea">Compartilhe sua ideia</div>
-            <button class="share-to-world">EXIBA-A PARA O MUNDO</button>
+
+    <section class="hero">
+        <nav style="list-style: none; display: flex; justify-content: space-between; align-items: center;">
+            <p class="exib-title" style=" width: 80%;">Exib</p>
+            <ul style="list-style: none; width: 20%; display: flex; justify-content: space-between; align-items: center; ">
+                <li><a href="campaigns-catalog.html"> Campanhas</a></li>
+                <li><a href="register.html"> Blog</a></li>
+                <li><a href="register.html"> Entrar</a></li>
+            </ul>
+        </nav>
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100%;">            <p style="font-size: 100px; margin-top: 100px; font-weight: bold;">Compartilhe sua ideia</p>
+            <p style="padding: 20px 50px; background-color: black; border-radius: 10px; margin-top: 20px;"><a href="page.html" style="text-decoration: none;  color: white; font-weight: bold;">EXIBA-A PARA O MUNDO</a></p>
         </div>
-    </div>
+    </section>
+    <!-- Isso não e uma pagina 2 isso e uma segunda seção da pagina atual, não deve ser tratada como page 2 -->
     <div class="page2">
+        <!-- esse container aqui nao e necessario -->
         <div class="container">
+            <!--  o h2 pode ser tratado como um "p" -->
             <h2>> Mais que uma plataforma</h2>
+            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <div class="page2-content">
                 <div class="icons">
                     <img src="../images/highfive-icon.png" alt="highfive-icon">
@@ -31,17 +37,25 @@
                     <img src="../images/comunity-icon.png" alt="comunity-icon">
                 </div>
                 <div class="paragraphs">
-                    <p>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência do usuário.</p>
+                    <p>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência do
+                        usuário.</p>
                     <p>Sem fins lucrativos, apenas queremos encurtar a relação "ideia x ação".</p>
                     <p>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</p>
                 </div>
             </div>
+            <!--  aqui  -->
         </div>
+        <!-- Por enquanto devemos ajustar o tamanho dinamico dessa imagem, caso queira pode ocultar ou comenta que irei corrigir na proxima rodada -->
         <img src="../images/roadmap-image.png" alt="roadmap-image">
     </div>
+    <!-- isso nao deve ser tratado como page 3 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page3 section">
+        <!-- page3 container nao e uma boa opçao para nome -->
         <div class="page3-container">
+            <!-- Esse h1 poderia ser um "p" -->
             <h1 class="why-exib">> Por que usar a Exib?</h1>
+
+            <!-- Essa lista tambem pode ser tratada como uma ul > li de figure -->
             <div class="advantages-list">
                 <div class="advantage">
                     <h1 class="number">1</h1>
@@ -65,18 +79,26 @@
                     </div>
                 </div>
             </div>
+            <!-- Aqui -->
+
+            <!-- Nomeclatura pouco intuitiva da class -->
             <div class="buttondiv">
+                <!-- Aqui poderia ser um link exemplo <a href="page.html">PUBLIQUE SUA CAMPANHA</a> -->
                 <button>PUBLIQUE SUA CAMPANHA</button>
             </div>
         </div>
     </div>
+    <!-- isso nao deve ser tratado como page 4 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page4 section">
+        <!-- Nome da class nao esta intuitivo -->
         <div class="page4-container">
+            <!-- Isso aqui poderia ser um "p" -->
             <h1>Ganhe pontos por interagir</h1>
+            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <div class="cards">
                 <div class="card">
                     <img src="../images/meteor-icon.png" alt="meteor-icon">
-                    <p>Ao comentar, publicar, doar e  incentivar com curtidas você acumula pontos </p>
+                    <p>Ao comentar, publicar, doar e incentivar com curtidas você acumula pontos </p>
                 </div>
                 <div class="card central">
                     <img src="../images/rating-icon.png" alt="rating-icon">
@@ -89,9 +111,13 @@
             </div>
         </div>
     </div>
+    <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page5 section">
+        <!-- Nome da class nao esta intuitivo -->
         <div class="page5-content">
+            <!-- Isso aqui poderia ser um "p" -->
             <h1>Campanhas em destaque</h1>
+            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <div class="campaigns-cards">
                 <div class="campaigns-card">
                     <div class="campaign-image"></div>
@@ -117,14 +143,18 @@
             </div>
         </div>
     </div>
+    <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page6 section">
+        <!-- Nome da class nao esta intuitivo -->
         <div class="page6-content">
             <p class="title">Modalidades disponíveis</p>
+            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <div class="page6-cards">
                 <div class="page6-card">
                     <p class="title">Assinatura</p>
                     <img src="../images/signer-icon.png" alt="signer-icon">
-                    <p class="content">Plano de assinatura mensal, bimestral, semestral e anual. Valores entre R$19,99 e 199,99.</p>
+                    <p class="content">Plano de assinatura mensal, bimestral, semestral e anual. Valores entre R$19,99 e
+                        199,99.</p>
                     <img src="../images/green-arrow.png" alt="green-arrow icon">
                 </div>
                 <div class="page6-card">
@@ -136,6 +166,7 @@
             </div>
         </div>
     </div>
+    <!-- isso nao deve ser tratado como page 7 e sim como uma seção da pagin-->
     <div class="page7">
         <div class="page7-content">
             <p class="and-you">E <span>você</span>?</p>
@@ -146,6 +177,11 @@
             </div>
         </div>
     </div>
+    <!--
+     Toda essa lista pode ser tratada como uma ul contento li sendo que cada li 
+     Aqui pode usar Flex ou Grid
+     
+     -->
     <footer class="exib-footer">
         <div class="exib-name-footer">Exib</div>
         <div class="know-more-footer">
@@ -178,6 +214,7 @@
                 <p>Ligue para nós</p>
             </div>
         </div>
+        <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
         <div class="social-icons-footer">
             <img src="../images/instagram-black-white-icon.png" alt="instagram-black-white-icon">
             <img src="../images/facebook-black-white-icon.png" alt="facebook-black-white-icon">
@@ -186,4 +223,5 @@
         </div>
     </footer>
 </body>
-</html> 
+
+</html>

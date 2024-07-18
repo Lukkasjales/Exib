@@ -35,12 +35,6 @@ header {
     margin: 0;
 }
 
-.share-your-idea {
-    font-size: 100px;
-    position: relative;
-    bottom: -480px;
-    flex-wrap: wrap;
-}   
 
 .share-to-world {
     position: relative;
@@ -53,12 +47,17 @@ header {
     color: white;
     background-color: black;
 }
+/* 
+Nome deve ser mais intuitivo exemplo
+hero
+algo que descreva a seção
+*/
+.hero {
 
-.page1 {
     height: 960px;
-    width: auto;
+    width: 100%;
     background-image: url('../images/first-background.png');
-    margin: 0;
+
 }
 
 .page2 {
