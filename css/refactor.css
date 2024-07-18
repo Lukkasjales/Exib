@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #06ff00;
+	padding: 0px 50px;
+}
+
+.menu p.logo {
+	font-size: 50px;
+	width: 80%;
+}
+
+.menu ul {
+	list-style: none;
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+
+}
+
+.menu ul li {
+	padding: 8px 30px;
+	cursor: pointer;
+}
+
+.menu ul li:last-child {
+	color: white;
+	background-color: #015500;
+}
+
+.menu ul li:last-child a {
+	color: white;
+
+}
+
+.menu ul li:hover:last-child a {
+	color: black;
+}
+
+.menu ul li:hover {
+	background-color: #acfcab;
+}
+
+
+header.hero {
+	height: 960px;
+	width: 100%;
+	background-image: url('../images/first-background.png');
+}
+
+header.hero div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+header.hero div p:first-child {
+	font-size: 100px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+
+header.hero div p:last-child {
+	padding: 20px 50px;
+	background-color: black;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+header.hero div p:last-child a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
