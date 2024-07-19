@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -48,16 +48,16 @@ header {
     background-color: black;
 }
 
-
 .page2 {
     height: 960px;
     margin: 0px;      
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.page2 h2 {
+.page2 p {
     font-size: 60px;
 }
 
@@ -79,22 +79,16 @@ header {
     justify-content: space-between;
 }
 
+.icons li {
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .icons img {
     margin: 40px 50px 0px 0px;
     align-items: center;
     justify-content: center;
-}
-
-.paragraphs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.paragraphs p {
-    height: 100px;
-    margin: 0;
-    margin: 40px 0px 0px 0px; 
 }
 
 .page2 .container {
@@ -113,6 +107,10 @@ header {
     background-image: url('../images/third-background.png');
     align-items: center;
     padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .page3 .advantages-list {
@@ -178,6 +176,7 @@ header {
 
 .page4 {
     height: 960px;
+    align-items: center;
     padding: 30px;
 }   
 
@@ -186,6 +185,11 @@ header {
     margin: 0px 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.page4 .card img {
+    width: 40%;
+    height: 40%;
 }
 
 .page4 .card{
@@ -197,6 +201,7 @@ header {
     padding: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -306,10 +311,17 @@ header {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     padding: 0px 30px;
     background-color: rgba(241, 240, 240, 0.948);
     margin: 0;
+
+}
+
+.page6-card img {
+    height: 40%;
+    width: 40%;
 }
 
 .page6-card .title {

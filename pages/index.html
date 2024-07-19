@@ -7,9 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/refactor.css">
-
 </head>
-
 <body>
     <nav class="menu">
         <p class="logo">Exib</p>
@@ -19,46 +17,49 @@
             <li><a href="register.html"> Entrar</a></li>
         </ul>
     </nav>
-
     <header class="hero">      
         <div>           
             <p>Compartilhe sua ideia</p>
             <p><a href="page.html">EXIBA-A PARA O MUNDO</a></p>
         </div>
     </header>
-
     <!-- Isso não e uma pagina 2 isso e uma segunda seção da pagina atual, não deve ser tratada como page 2 -->
     <div class="page2">
         <!-- esse container aqui nao e necessario -->
         <div class="container">
-            <!--  o h2 pode ser tratado como um "p" -->
-            <h2>> Mais que uma plataforma</h2>
-            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
+            <p>> Mais que uma plataforma</p>
             <div class="page2-content">
-                <div class="icons">
-                    <img src="../images/highfive-icon.png" alt="highfive-icon">
-                    <img src="../images/open-source-icon.png" alt="open-source-icon">
-                    <img src="../images/comunity-icon.png" alt="comunity-icon">
-                </div>
-                <div class="paragraphs">
-                    <p>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência do
-                        usuário.</p>
-                    <p>Sem fins lucrativos, apenas queremos encurtar a relação "ideia x ação".</p>
-                    <p>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</p>
-                </div>
+                <ul class="icons">
+                    <li>
+                        <figure>
+                            <img src="../images/highfive-icon.png" alt="highfive-icon">
+                            <figcaption>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência dousuário.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="../images/open-source-icon.png" alt="open-source-icon">
+                            <figcaption>Sem fins lucrativos, apenas queremos encurtar a relação "ideia x ação".</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="../images/comunity-icon.png" alt="comunity-icon">
+                            <figcaption>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </div>
-            <!--  aqui  -->
         </div>
         <!-- Por enquanto devemos ajustar o tamanho dinamico dessa imagem, caso queira pode ocultar ou comenta que irei corrigir na proxima rodada -->
         <img src="../images/roadmap-image.png" alt="roadmap-image">
     </div>
     <!-- isso nao deve ser tratado como page 3 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
-    <div class="page3 section">
+    <div class="page3">
         <!-- page3 container nao e uma boa opçao para nome -->
         <div class="page3-container">
             <!-- Esse h1 poderia ser um "p" -->
             <h1 class="why-exib">> Por que usar a Exib?</h1>
-
             <!-- Essa lista tambem pode ser tratada como uma ul > li de figure -->
             <div class="advantages-list">
                 <div class="advantage">
