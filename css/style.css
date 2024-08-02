@@ -77,21 +77,51 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    list-style: none;
+    height: 100%;
 }
 
-.icons li {
+.icons ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons p {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.icons li figure {
     list-style: none;
     font-size: 25px;
     font-weight: 600;
-}
-
-.icons img {
-    margin: 40px 50px 0px 0px;
+    display: flex;
+    justify-content: space-around; 
+    flex-flow: row, nowrap;
     align-items: center;
-    justify-content: center;
 }
 
-.page2 .container {
+.icons figcaption {
+    text-align: flex-start;
+    max-width: 50vw;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.icons .path {
+    position: relative;
+    left: 0;
+    width: 40vw;
+    padding: 50px;
+}
+
+.icons .path img {
+    width: 
+}
+
+.page2 .page2-content {
     margin: 0px 0px 0px 40px;
     display: flex;
     flex-direction: column;
@@ -127,7 +157,6 @@ header {
 .page3 .advantage .number {
     font-size: 120px;
     color: yellow;
-
 }
 
 .page3 .advantage p {
@@ -154,18 +183,18 @@ header {
     margin: 0px 0px 150px 0px;
 }
 
-.page3 .page3-container {
+.page3 .content {
     margin: 0px 0px 0px 100px;
     height: 700px;
 }
 
-.page3 .buttondiv{
+.page3 .publish-your-campaign-button {
     height: 260px;
     display: flex;
     justify-content: center;
 }
 
-.page3 button {
+.page3 .publish-your-campaign-button a {
     height: 140px;
     width: 600px;
     border-radius: 30px;
@@ -229,6 +258,12 @@ header {
 
 .page5 {
     height: 960px;
+}
+
+.featured-campaigns p {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 .page5 h1 {

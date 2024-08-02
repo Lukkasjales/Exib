@@ -25,41 +25,40 @@
     </header>
     <!-- Isso não e uma pagina 2 isso e uma segunda seção da pagina atual, não deve ser tratada como page 2 -->
     <div class="page2">
-        <!-- esse container aqui nao e necessario -->
-        <div class="container">
-            <p>> Mais que uma plataforma</p>
-            <div class="page2-content">
-                <ul class="icons">
-                    <li>
-                        <figure>
-                            <img src="../images/highfive-icon.png" alt="highfive-icon">
-                            <figcaption>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência dousuário.</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="../images/open-source-icon.png" alt="open-source-icon">
-                            <figcaption>Sem fins lucrativos, apenas queremos encurtar a relação "ideia x ação".</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="../images/comunity-icon.png" alt="comunity-icon">
-                            <figcaption>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</figcaption>
-                        </figure>
-                    </li>
-                </ul>
-            </div>
+        <div class="page2-content">
+            <ul class="icons">
+                <p>> Mais que uma plataforma</p>
+                <li>
+                    <figure>
+                        <img src="../images/highfive-icon.png" alt="highfive-icon">
+                        <figcaption>Somos uma ponte que conecta o início aos meios, com foco em simplicidade e experiência
+                            do usuário.</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="../images/open-source-icon.png" alt="open-source-icon">
+                        <figcaption>Sem fins lucrativos, apenas queremos encurtar a relação "ideia x ação".</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="../images/comunity-icon.png" alt="comunity-icon">
+                        <figcaption>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</figcaption>
+                    </figure>
+                </li>
+            </ul>
         </div>
         <!-- Por enquanto devemos ajustar o tamanho dinamico dessa imagem, caso queira pode ocultar ou comenta que irei corrigir na proxima rodada -->
-        <img src="../images/roadmap-image.png" alt="roadmap-image">
+         <figure class="path">
+            <img src="../images/roadmap-image.png" alt="roadmap-image">
+         </figure>
     </div>
     <!-- isso nao deve ser tratado como page 3 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page3">
-        <!-- page3 container nao e uma boa opçao para nome -->
-        <div class="page3-container">
+        <div class="content">
             <!-- Esse h1 poderia ser um "p" -->
-            <h1 class="why-exib">> Por que usar a Exib?</h1>
+            <p class="why-exib">> Por que usar a Exib?</p>
             <!-- Essa lista tambem pode ser tratada como uma ul > li de figure -->
             <div class="advantages-list">
                 <div class="advantage">
@@ -84,12 +83,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Aqui -->
-
-            <!-- Nomeclatura pouco intuitiva da class -->
-            <div class="buttondiv">
-                <!-- Aqui poderia ser um link exemplo <a href="page.html">PUBLIQUE SUA CAMPANHA</a> -->
-                <button>PUBLIQUE SUA CAMPANHA</button>
+            <div class="publish-your-campaign-button">
+                <a href="creating-campaign.html">PUBLIQUE SUA CAMPANHA</a>
             </div>
         </div>
     </div>
@@ -118,10 +113,8 @@
     </div>
     <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page5 section">
-        <!-- Nome da class nao esta intuitivo -->
-        <div class="page5-content">
-            <!-- Isso aqui poderia ser um "p" -->
-            <h1>Campanhas em destaque</h1>
+        <div class="featured-campaigns">
+            <p>Campanhas em destaque</p>
             <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <div class="campaigns-cards">
                 <div class="campaigns-card">
