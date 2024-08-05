@@ -36,7 +36,6 @@ header {
     margin: 0;
 }
 
-
 .share-to-world {
     position: relative;
     font-size: 300%;
@@ -116,10 +115,6 @@ header {
     left: 0;
     width: 40vw;
     padding: 50px;
-}
-
-.icons .path img {
-    width: 
 }
 
 .page2 .page2-content {
@@ -271,6 +266,8 @@ header {
 
 .page5 {
     height: auto;
+    padding: 80px 0;
+    background-color: rgb(22, 241, 15);
 }
 
 .featured-campaigns p {
@@ -296,6 +293,7 @@ header {
     height: 479px;
     padding: 25px;
     border-radius: 20px;
+    border: 2px solid black;
     background-color: #F1F1F1;
     display: flex;
     flex-direction: column;
@@ -350,13 +348,19 @@ header {
     font-size: 80px;
 }
 
-.page6 .page6-cards{
+.page6 .upper-image {
+    width: 23%;
+    height: 25%;
+}
+
+.page6 ul {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
     width: 100%;
 }
 
-.page6-cards .page6-card{
+.page6 ul li {
     width: 487px;
     height: 508px;
     border-radius: 20px;
@@ -364,36 +368,35 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 0px 30px;
+    padding: 30px;
     background-color: rgba(241, 240, 240, 0.948);
     margin: 0;
-
 }
 
-.page6-card img {
-    height: 40%;
-    width: 40%;
+.page6 li img {
+    height: 20%;
+    width: 35%;
 }
 
-.page6-card .title {
-    font-size: 75px;
-    font-weight: lighter;
+.page6 li .title {
+    font-size: 55px;
+    font-weight: 600;
 }
 
-.page6-card .content {
-    font-size: 30px;
-    font-weight: normal;
+.page6 li figcaption {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
-.page6-content {
+.modalities {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 800px;
     width: 1400px;
 }
 
-.page6-cards {
+.page6 ul {
     display: flex;
     justify-content: space-between;
 }
@@ -432,7 +435,7 @@ header {
     font-size: 40px;
 }
 
-.last-page-buttons   {
+.last-page-buttons {
     display: flex;  
     margin: 0px;
     flex-wrap: wrap;
@@ -450,7 +453,9 @@ header {
 
 footer {
     display: flex;
-    height: 260px;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
 }
 
 .exib-name-footer {
@@ -458,17 +463,14 @@ footer {
     justify-content: flex-start;
     align-items: center;
     font-size: 800%;
-    min-width: 466px;
-    padding-left: 100px;
-    margin: 0px;
 }
 
-.know-more-footer, .recomendation-footer, .contact-footer     {
+footer ul {
     display: flex;
     flex-direction: column;
     margin: 0px;
     padding: 35px 0px;
-    min-width: 400px;
+    list-style: none;
 }
 
 .lower { 
@@ -485,26 +487,27 @@ footer {
     min-width: 50%;
 }
 
-.upper p, .lower p {
-    font-size: 150%;
+.upper li, .lower li {
+    font-size: 1rem;
     margin: 0px;
     text-align: start;
     font-weight: normal;
 }
 
-.upper p {
+.upper li {
     color: rgb(188, 186, 186);
     margin-bottom: 20px;
 }
 
 .social-icons-footer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
 .social-icons-footer img {
-    width: 70px; 
-    height: 70px;
+    width: 2rem; 
+    height: 2rem;
 }

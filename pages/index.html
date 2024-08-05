@@ -115,7 +115,6 @@
     <div class="page5">
         <div class="featured-campaigns">
             <p>Campanhas em destaque</p>
-            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
             <ul>
                 <li>
                     <figure>
@@ -149,25 +148,23 @@
     </div>
     <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
     <div class="page6 section">
-        <!-- Nome da class nao esta intuitivo -->
-        <div class="page6-content">
+        <div class="modalities">
             <p class="title">Modalidades disponíveis</p>
-            <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
-            <div class="page6-cards">
-                <div class="page6-card">
+            <ul>
+                <li>
                     <p class="title">Assinatura</p>
-                    <img src="../images/signer-icon.png" alt="signer-icon">
-                    <p class="content">Plano de assinatura mensal, bimestral, semestral e anual. Valores entre R$19,99 e
-                        199,99.</p>
+                    <img class="upper-image" src="../images/signer-icon.png" alt="signer-icon">
+                    <figcaption class="content">Plano de assinatura mensal, bimestral, semestral e anual. Valores entre R$19,99 e
+                        199,99</figcaption>
                     <img src="../images/green-arrow.png" alt="green-arrow icon">
-                </div>
-                <div class="page6-card">
+                </li>  
+                <li>
                     <p class="title">Valor livre </p>
-                    <img src="../images/free-value-icon.png" alt="free-value icon">
-                    <p class="content">Ajude com o valor que quiser, da forma que quiser</p>
+                    <img class="upper-image" src="../images/free-value-icon.png" alt="free-value icon">
+                    <figcaption class="content">Ajude com o valor que quiser, da forma que quiser</figcaption>
                     <img src="../images/yellow-arrow.png" alt="yellow-arrow icon">
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </div>
     <!-- isso nao deve ser tratado como page 7 e sim como uma seção da pagin-->
@@ -187,43 +184,58 @@
      -->
     <footer class="exib-footer">
         <div class="exib-name-footer">Exib</div>
-        <div class="know-more-footer">
+        <ul class="know-more-footer">
             <div class="upper">
-                <p>Saiba mais</p>
+                <li>Saiba mais</li>
             </div>
             <div class="lower">
-                <p>Sobre a Exib</p>
-                <p>Como funciona</p>
-                <p>Dicas para a campanha</p>
-                <p>Blog</p>
+                <li>Sobre a Exib</li>
+                <li>Como funciona</li>
+                <li>Dicas para a campanha</li>
+                <li>Blog</li>
             </div>
-        </div>
-        <div class="recomendation-footer">
+        </ul>
+        <ul class="recomendation-footer">
             <div class="upper">
-                <p>Recomendações</p>
+                <li>Recomendações</li>
             </div>
             <div class="lower">
-                <p>O que é uma campanha?</p>
-                <p>Desenvolver ideias</p>
-                <p>Ideias</p>
+                <li>O que é uma campanha?</li>
+                <li>Desenvolver ideias</li>
+                <li>Ideias</li>
             </div>
-        </div>
-        <div class="contact-footer">
+        </ul>
+        <ul class="contact-footer">
             <div class="upper">
-                <p>Contato</p>
+                <li>Contato</li>
             </div>
             <div class="lower">
-                <p>Help Center</p>
-                <p>Ligue para nós</p>
+                <li>Help Center</li>
+                <li>Ligue para nós</li>
             </div>
-        </div>
-        <!-- Toda essa lista pode ser tratada como uma ul contento li sendo que cada li pode conter uma tag figure > img e figcaption para adicionar a descrição exemplo:  https://www.w3schools.com/tags/tag_figure.asp-->
-        <div class="social-icons-footer">
-            <img src="../images/instagram-black-white-icon.png" alt="instagram-black-white-icon">
-            <img src="../images/facebook-black-white-icon.png" alt="facebook-black-white-icon">
-            <img src="../images/tiktok-black-white-icon.png" alt="tiktok-black-white-icon">
-            <img src="../images/whatsapp-black-white-icon.png" alt="whatsapp-black-white-icon">
-        </div>
+        </ul>
+        <ul class="social-icons-footer">
+            <li>
+                <figure>
+                    <img src="../images/instagram-black-white-icon.png" alt="instagram-black-white-icon">
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="../images/facebook-black-white-icon.png" alt="facebook-black-white-icon">
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="../images/tiktok-black-white-icon.png" alt="tiktok-black-white-icon">
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="../images/whatsapp-black-white-icon.png" alt="whatsapp-black-white-icon">
+                </figure>
+            </li>
+        </ul>
     </footer>
 </body>
 
