@@ -22,10 +22,9 @@
             <p><a href="page.html">EXIBA-A PARA O MUNDO</a></p>
         </div>
     </header>
-    <!-- Isso não e uma pagina 2 isso e uma segunda seção da pagina atual, não deve ser tratada como page 2 -->
-    <div class="page2">
+    <section>
         <div class="page2-content">
-            <ul class="icons">
+            <ul>
                 <p>> Mais que uma plataforma</p>
                 <li>
                     <figure>
@@ -43,18 +42,18 @@
                 <li>
                     <figure>
                         <img src="../images/comunity-icon.png" alt="comunity-icon">
-                        <figcaption>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove</figcaption>
+                        <figcaption>Interaja com pessoas que têm os mesmos gostos que você, dê ideias, ouça, descubra e inove
+                        </figcaption>
                     </figure>
                 </li>
             </ul>
+            <!-- Por enquanto devemos ajustar o tamanho dinamico dessa imagem, caso queira pode ocultar ou comenta que irei corrigir na proxima rodada -->
+            <figure class="path">
+                <img src="../images/roadmap-image.png" alt="roadmap-image">
+            </figure>
         </div>
-        <!-- Por enquanto devemos ajustar o tamanho dinamico dessa imagem, caso queira pode ocultar ou comenta que irei corrigir na proxima rodada -->
-         <figure class="path">
-            <img src="../images/roadmap-image.png" alt="roadmap-image">
-         </figure>
-    </div>
-    <!-- isso nao deve ser tratado como page 3 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
-    <div class="page3">
+    </section>
+    <section style="background: linear-gradient(120deg, rgb(9, 216, 9), yellow);">
         <div class="content">
             <p class="why-exib">> Por que usar a Exib?</p>
             <ul class="advantages-list">
@@ -84,13 +83,12 @@
                 <span><a href="creating-campaign.html">PUBLIQUE SUA CAMPANHA</a></span>
             </div>
         </div>
-    </div>
-    <!-- isso nao deve ser tratado como page 4 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
-    <div class="page4 section">
+    </section>
+    <section>
         <div class="earn-points-by-interacting">
-            <p class="title">Ganhe pontos por interagir</p>
+            <p class="title" >Ganhe pontos por interagir</p>
             <ul>
-                <li>
+                <li>    
                     <figure>
                         <img src="../images/meteor-icon.png" alt="meteor-icon">
                         <figcaption>Ao comentar, publicar, doar e incentivar com curtidas você acumula pontos </figcaption>
@@ -110,9 +108,8 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
-    <div class="page5">
+    </section>
+    <section style="background-color: rgb(15, 227, 15);">
         <div class="featured-campaigns">
             <p>Campanhas em destaque</p>
             <ul>
@@ -145,9 +142,8 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <!-- isso nao deve ser tratado como page 5 e sim como uma seção da pagina, a class section nao serve para nada pode removela -->
-    <div class="page6 section">
+    </section>
+    <section>
         <div class="modalities">
             <p class="title">Modalidades disponíveis</p>
             <ul>
@@ -166,9 +162,8 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <!-- isso nao deve ser tratado como page 7 e sim como uma seção da pagin-->
-    <div class="page7">
+    </section>
+    <section>
         <div class="page7-content">
             <p class="and-you">E <span>você</span>?</p>
             <p class="how-we-can-help">Nos conte sobre você, quais seus objetivos e como podemos te ajudar</p>
@@ -177,11 +172,7 @@
                 <button class="know-more-button">Campanhas disponíveis</button>
             </div>
         </div>
-    </div>
-    <!--
-     Toda essa lista pode ser tratada como uma ul contento li sendo que cada li 
-     Aqui pode usar Flex ou Grid
-     -->
+    </section>
     <footer class="exib-footer">
         <div class="exib-name-footer">Exib</div>
         <ul class="know-more-footer">
