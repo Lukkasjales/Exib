@@ -4,78 +4,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (max-width: 768px) {
-
-    header p {
-        margin: 70px 0;
-    }
-    
-    .menu ul li {
-        font-size: 1.4rem;
-    }
-    
-    header.hero div p:first-child {
-        font-size: 3rem;
-        font-weight: 700;
-    }
-    
-    header.hero div {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    /*page 2*/
-    body section {
-        padding: 20px 20px;
-        justify-content: start;
-    }
-
-    .page2-content .path img {
-        width: 200px;
-        height: 300px;
-    }
-
-    .page2-content .path {
-        justify-content: center;
-    }
-
-    .page2-content ul p {
-        font-size: 2rem;
-    }
-
-    .page2-content figcaption {
-        font-size: 1.1rem;
-    }
-
-    .page2-content figure img {
-        width: 4rem;
-        height: auto;
-        margin: 0 30px;
-    }
-
-    .page2-content figure {
-        margin: 15px 0;
-    }
-    
-    /*page 3*/
-    section .content p {
-        font-size: 3rem; 
-        font-weight: 600;
-    }
-
-    .content .advantages-list .advantage .number {
-        font-size: 4rem;
-    }
-
-    .content .advantages-list .advantage .text-container .title {
-        font-size: 2rem;
-    }
-
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-}
 
 section {
     height: auto;
@@ -481,7 +409,6 @@ header.hero div p:last-child a {
     font-size: 1.2rem;
     font-weight: 700;
 }
-
 .modalities {
     display: flex;
     flex-direction: column;
@@ -605,4 +532,222 @@ footer ul {
 .social-icons-footer img {
     width: 2rem; 
     height: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: none;
+    }
+
+    header.hero {
+        justify-content: center;
+    }
+
+    header p {
+        margin: 70px 0;
+    }
+    
+    .menu ul li {
+        font-size: 1.4rem;
+    }
+    
+    header.hero div p:first-child {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    header.hero div p:last-child {
+        font-size: 2rem;
+    }
+    
+    header.hero div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*page 2*/
+    body section {
+        padding: 20px 20px;
+        justify-content: center;
+    }
+
+    .page2-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .page2-content .path img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .page2-content ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    .page2-content ul li figure {
+        margin: 40px 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .page2-content .path {
+        justify-content: center;
+    }
+
+    .page2-content ul p:first-child {
+        font-size: 2.5rem;
+    }
+
+    .page2-content ul li figure figcaption {
+        font-size: 1.5rem;
+        max-width: none;
+    }
+
+    .page2-content div figure.path {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .page2-content div figure.path img {
+        width: 450px;
+        height: auto;
+        margin: 0;
+    }
+
+    .page2-content ul li figure img {
+        width: 110px;
+        height: 110px;
+        margin-right: 20px;
+    }
+    
+    /*page 3*/
+    section .content p {
+        font-size: 3rem; 
+        font-weight: 600;
+    }
+
+    .content .advantages-list .advantage .number {
+        font-size: 8rem;
+    }
+
+    .content .advantages-list .advantage .text-container .title {
+        font-size: 2.7rem;
+        font-weight: bolder;
+    }
+    
+    .content ul {
+        flex-direction: column;
+    }
+    .content ul div {
+        margin: 0;
+    }
+
+    /*earn points by interacting section*/ 
+
+    .earn-points-by-interacting .title {
+        font-size: 3.4rem;
+        font-weight: 700;
+    }
+
+    .earn-points-by-interacting ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        gap: 80px;
+    }
+    .earn-points-by-interacting .central {
+        transform: none;
+    }
+    
+    .earn-points-by-interacting li figure {
+        width: 80%;
+        height: auto;
+        margin: 0;
+        padding: 50px;
+    }
+
+    .earn-points-by-interacting li figure figcaption {
+        font-size: 2rem;
+    }
+
+    .earn-points-by-interacting li figure img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .earn-points-by-interacting ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* featured campaigns */
+
+    .featured-campaigns p:first-child {
+        font-size: 3.5rem;
+        margin: 30px 0;
+    }
+
+    .featured-campaigns ul {
+        margin: 0;
+        gap: 50px
+    }
+
+    /* available modalities */
+
+    .modalities {
+        height: auto;
+    }   
+
+    .modalities .title {
+        font-size: 4rem;
+    }
+
+    .modalities ul {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .modalities ul li figcaption {
+        font-size: 1.5rem;
+    }
+
+    .modalities ul li .upper-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .modalities ul li img:last-child {
+        width: 120px;
+    }
+    
+    /* 'and you' section */
+
+    .how-we-can-help {
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    .last-page-buttons {
+        display: flex;
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .last-page-buttons button {
+        width: auto; 
+        height: auto;
+        padding: 20px;
+        font-size: 2rem;
+    }
+
 }
