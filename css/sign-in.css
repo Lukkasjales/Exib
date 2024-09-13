@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
 }
 
 body {
@@ -12,13 +13,13 @@ body {
 .login-page {
     display: flex;  
     width: 100%;
-    height: 1270px;
+    height: 100vh;
 }
 
 .register-or-login-image {
     background: url('../images/register-or-login-image.png');
     width: 45%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 70px;
 }
@@ -31,15 +32,16 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 55%;
-    padding-top: 80px;
+    height: auto;
 }
 
 .login-input-informations .form .forgot-password {
     text-align: right;
     font-weight: bold;
     text-decoration-line: underline;
-    font-size: 180%;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -48,7 +50,7 @@ body {
     height: 60%;
     display: flex;
     flex-direction: column;
-
+    font-size: 0.7rem;
 }
 
 .input-box label {
@@ -70,26 +72,28 @@ body {
 }
 
 .welcome-greetings {
-    width: 100%;
-    text-align: center;
-    height: 30%;
     display: flex;
+    gap: 20px;
+    text-align: center;
     flex-flow: column wrap; 
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .big-green-exib-noun {
-    font-size: 600%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 7vw;
     color: rgb(34, 255, 0);
 }
 
 .big-black-register-noun {
-    font-size: 700%;
+    font-size: 4rem;
+    color: black;
 }
 
 .welcome {
-    font-size: 300%;
+    font-size: 2.5vw;
 }
 
 .register-account-button {
@@ -102,6 +106,7 @@ body {
     margin-top: 30px;
     padding: 10px 0;
     align-items: center;
+    cursor: pointer;
 }
 
 .lower { 
@@ -134,17 +139,26 @@ body {
 
 footer {
     display: flex;
-    height: 260px;
+    height: auto;
+    font-size: 0.8rem;
+}
+
+footer p {
+    text-decoration: underline;
 }
 
 .exib-name-footer {
     display: flex;
     justify-content: flex-start;
+    text-align: center;
     align-items: center;
+    padding: 0 50px;
     font-size: 800%;
-    min-width: 466px;
-    padding-left: 100px;
     margin: 0px;
+}
+
+.exib-name-footer p {
+    text-decoration: none;
 }
 
 .know-more-footer, .recomendation-footer, .contact-footer     {
@@ -303,4 +317,54 @@ footer {
 
 .enter-with-google-button p {
     font-size: 200%;
+}
+
+@media (max-width: 1100px) {
+    .enter-with-facebook-button p, .enter-with-google-button p {
+        display: none;
+    }
+
+    .register-or-login-image {
+        display: none;
+    }
+
+    .login-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .login-input-informations .form p, .login-input-informations .form .input-box input,
+    .login-input-informations .form .input-box label {
+        font-size: 5vw;
+    }   
+
+    .login-input-informations {
+        width: 100%;
+    }
+
+    .login-input-informations .big-green-exib-noun {
+        font-size: 15vw;
+    }
+    
+    .login-input-informations .big-green-exib-noun span {
+        font-size: 8vw;
+    }
+     
+    footer {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    footer .exib-name-footer {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+    .login-input-informations .form p, .login-input-informations .form .input-box input,
+    .login-input-informations .form .input-box label {
+        font-size: 2vw;
+    }   
 }
